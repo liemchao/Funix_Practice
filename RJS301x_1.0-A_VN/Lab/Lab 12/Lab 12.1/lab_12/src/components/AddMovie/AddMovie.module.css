@@ -1,0 +1,61 @@
+.control {
+  margin: 1rem 0;
+}
+
+.control label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.control input,
+.control textarea {
+  display: block;
+  width: 100%;
+  font: inherit;
+  padding: 0.2rem;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+.control input:focus,
+.control textarea:focus {
+  outline: none;
+  border-color: #230052;
+}
+
+.error {
+  width: 100%;
+  background-color: #d2242440;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 18px;
+  border-radius: 20px;
+  border: red 1px solid;
+  align-items: center;
+}
+
+.icon-error,
+.msg-error {
+  margin: 0;
+}
+
+.icon-error {
+  margin-left: 10px;
+  background-color: #c51a1a6b;
+  padding: 4px 11px;
+  border-radius: 50%;
+
+}
+
+.msg-error {
+  flex: 1;
+  font-weight: 600;
+  color: #ff00008c;
+}
+
+.d-none {
+  display: none;
+}

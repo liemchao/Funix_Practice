@@ -1,0 +1,18 @@
+PC: >= 1024px
+Tablet: >= 740px & < 1024px
+Mobile: < 740px
+
+// pc
+@mdeia (min-width: 1024px) {
+	..css
+}
+
+// Tablet
+@mdeia (min-width: 740px) and (max-width: 1023px) {
+	..css
+}
+
+// pc
+@mdeia (max-width: 739px) {
+	..css
+}

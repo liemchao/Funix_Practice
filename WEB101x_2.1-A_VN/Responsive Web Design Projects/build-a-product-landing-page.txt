@@ -1,0 +1,48 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Page</title>
+    <link rel="stylesheet" href="./styles.css"/>
+  </head>
+  <body>
+      <header id="header">
+        <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"/>
+        <nav id="nav-bar">
+          <a class="nav-link" href="#video">Video</a>
+          <a class="nav-link" href="#form">Form</a>
+          <a class="nav-link" href="#header-img">Image</a>
+        </nav>
+      </header>
+      
+      <video id="video" src="https://www.youtube.com/watch?v=cnHNuRq8cTI">
+      </video>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" name="email" type="email" required placeholder="Email"/>
+        <input id="submit" type="submit"/>
+      </form>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+}
+
+@media (min-width:1024px) {
+
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+}
+
+** end of undefined **
+

@@ -1,0 +1,25 @@
+.div1 {
+    text-align: center;
+    width: 50%;
+    /* float: left; */
+    background-color: aqua;
+    height: 100%;
+    /* line-height: 100%; */
+}
+
+.div2 {
+    text-align: center;
+    width: 50%;
+    /* float: left; */
+    height: 100%;
+    background-color: blue;
+}
+
+.tung {
+    height: 250px;
+    display: flex;
+}
+
+p {
+    clear: both;
+}

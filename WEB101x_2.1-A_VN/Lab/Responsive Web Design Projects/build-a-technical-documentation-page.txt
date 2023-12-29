@@ -1,0 +1,75 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Page</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+      <main id="main-doc">
+        <nav id="navbar">
+          <header>
+            <a class="nav-link" href="#Introduce">Introduce</a>
+            <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
+            <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+            <a class="nav-link" href="#Hello_world">Hello world</a>
+            <a class="nav-link" href="#Declaring_variables">Declaring variables</a>
+          </header>
+        </nav>
+        <section class="main-section" id="Introduce">
+          <header>
+            Introduce
+          </header>
+        </section>
+        <section class="main-section" id="What_you_should_already_know">
+          <header>
+            What you should already know
+          </header>
+          <ul>
+            <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
+            <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
+            <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
+            <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
+            <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
+          </ul>
+        </section>
+        <section class="main-section" id="JavaScript_and_Java">
+          <header>
+            JavaScript and Java
+          </header>
+        </section>
+        <section class="main-section" id="Hello_world">
+          <header>
+            Hello world
+          </header>
+        </section>
+        <section class="main-section"  id="Declaring_variables">
+          <header>
+            Declaring variables
+          </header>
+          <p><code>x = 4</code></p>
+          <p><code>y = 5</code></p>
+          <p><code>z = 3</code></p>
+          <p><code>x = 4</code></p>
+          <p><code>x = 4</code></p>
+          <p><code>x = 4</code></p>
+          <p><code>x = 4</code></p>
+          <p><code>x = 4</code></p>
+          <p><code>x = 4</code></p>
+          <p><code>x = 4</code></p>
+        </section>
+      </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media (max-width: 200px) {
+  
+}
+
+** end of undefined **
+

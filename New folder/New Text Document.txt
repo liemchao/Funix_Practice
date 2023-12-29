@@ -1,0 +1,18 @@
+import { Route, Routes, useNavigate } from 'react-router-dom';///
+    const navigate = useNavigate();
+        navigate('/login', { replace: true });
+https://blog.luyencode.net/bai-tap-java-co-loi-giai-chi-tiet/
+
+const Form = () => { 
+ const inputRef = useRef(null); 
+
+ const handleSubmit = () => { 
+   const inputValue = inputRef.current.value; 
+   // Do something with the value 
+ } 
+ return ( 
+   <form onSubmit={handleSubmit}> 
+     <input ref={inputRef} type="text" /> 
+   </form> 
+ ); 
+}; 

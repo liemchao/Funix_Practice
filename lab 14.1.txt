@@ -1,0 +1,25 @@
+onBlur: bắt
+onChange: bắt lúc nhập
+
+validate hết rồi bỏ vô hiệu hoá button
+
+    const bubbleSort = (arr) => {
+        console.log("before sort: ", arr)
+        for (let i = 0; i < arr.length; i++) {
+            for (let j = arr.length; j > i; j--) {
+                if (arr[j] < arr[j - 1]) {
+                    let tmp = arr[j];
+                    arr[j] = arr[j - 1];
+                    arr[j - 1] = tmp;
+                }
+            }
+        }
+        console.log("After sort: ", arr)
+    }
+    const arr = [3, 1, 5, 6, 10, 20, 9, 8, 9, 10];
+    bubbleSort([3, 1, 5, 6, 10, 20, 9, 8, 9, 10]);
+    const metho = arr.sort((a, b) => {
+        return a - b
+    })
+
+    console.log(metho)

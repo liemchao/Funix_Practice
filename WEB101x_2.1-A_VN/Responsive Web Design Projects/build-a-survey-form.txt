@@ -1,0 +1,55 @@
+** start of undefined **
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Page</title>
+    <link rel="stylesheet" href="./styles.css"/>
+  </head>
+  <body>
+      <h1 id="title">
+        freeCodeCamp Survey Form
+      <h1>
+        <p id="description">Thank you for taking the time to help us improve the platform
+</p>
+      <form id="survey-form">
+        <label id="name-label" for="name">Name: </label>
+        <input id="name" placeholder="Name" type="text"required/>
+        <label id="email-label" for="email">Email: </label>
+        <input id="email" placeholder="Email" type="email" required/>
+        <label id="number-label" for="number">Number: </label>
+        <input id="number" placeholder="Number(1-10)" type="number" min="1" max="10" required/>
+        <select id="dropdown">
+          <option value="1">1</option>
+          <option value="2">2</option>
+        </select>
+
+        <label for="men">Nam</label>
+        <input id="men" value="men" type="radio" name="gender"/>
+        <label for="women">Nữ</label>
+        <input id="women" value="women" type="radio" name="gender"/>
+
+        <p>Sở thích</p>
+        <label for="women">Xem phim</label>
+        <input id="hobbie" type="checkbox" value="movie"/>
+        <label for="women">Gym</label>
+        <input id="hobbie" type="checkbox" value="Gym"/>
+        <textarea>
+          
+        </textarea>
+         <input id="submit" type="submit"/>
+      </form>
+  </body>
+</html>
+
+
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+

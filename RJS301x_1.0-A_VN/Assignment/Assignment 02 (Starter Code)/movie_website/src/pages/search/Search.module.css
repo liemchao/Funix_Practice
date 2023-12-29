@@ -1,0 +1,25 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    background-color: #000000d1;
+    overflow: auto;
+}
+
+.movie-detail-popup {
+    width: 80%;
+}
+
+.close-icon {
+    color: #fff;
+    display: block;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.close-icon:hover {
+    background-color: red;
+}

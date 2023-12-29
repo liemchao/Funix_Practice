@@ -1,0 +1,37 @@
+.action-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .form-control label {
+  display: block;
+} */
+
+.form-group {
+    display: flex;
+    align-items: flex-end;
+}
+
+.error {
+    margin: 0;
+    flex: 1;
+    color: red;
+    margin-left: 2rem;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input {
+    width: 100%;
+}
+
+.form-input {
+    flex: 1;
+}

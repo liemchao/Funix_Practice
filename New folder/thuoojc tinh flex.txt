@@ -1,0 +1,27 @@
+- Thuộc tính cho flex-container:
+
++ gap: khoảng cách giữa các items, không phải margin
+
++ justify-content: căn chỉnh các items theo trục chính
+
++ align-items: căn chỉnh item theo trục chéo
+
++ flex-direction: định phương của trục chính
+
++ flex-wrap: cho phép các items xuống dòng mới nếu không đủ khoảng không cho toàn bộ items
+
++ align-content: căn chỉnh theo trục chéo, áp dụng với container có nhiều hàng
+
+- Thuộc tính cho flex-items:
+
++ Align-self: ghi đè lên thuộc tính align-items, cho items cụ thể
+
++ flex-grow: chỉ định item sẽ tăng bao nhiêu so với các items còn lại trong flex-container..
+
++ flex-shrink: chỉ định item sẽ giảm (co lại) bao nhiêu so với các items còn lại trong flex-container
+
++ flex-basis: chỉ định độ dài ban đầu các items trong flex-container
+
++ flex: Cú pháp ngắn kết hợp của flex-basis, flex-grow và flex-shrink
+
++ order: sử dụng để thay đổi thứ tự flex item trên trang mà không thay đổi trên source code

@@ -1,0 +1,13 @@
+.active {
+    color: rgb(224, 177, 90);
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.navbar-icon {
+    color: #000;
+}

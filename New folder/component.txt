@@ -1,0 +1,17 @@
+- Breadcrumbs: Chỉ dẫn cho các trang phức tạp, nhiều lớp.
+
+- Pagination: Điều hướng đến trang cụ thể với danh sách nhiều trang.
+
+- Alert and status bars: Hiển thị thông báo, bảng trạng thái, ... khi người dùng thao tác với trang web. Giúp người dùng biết được mình đã thao tác gì và kết quả như thế nào.
+
+- Feature box: Các khối tính năng, thể hiện thông tin dưới dạng một hộp.
+
+- Preview and profile cards: Thẻ chứa thông tin hay bản xem trước, giới thiệu. Thành phần rất hay được sử dụng trong trang web, giúp người dùng nắm được các thông tin cơ bản trước khi xem chi tiết.
+
+- Accordion: Thay vì hiển thị toàn bộ thông tin một lúc, thành phần này giúp nhóm các thông tin và giấu nó đi. Khi cần có thể dễ dàng mở ra và sử dụng thông tin đó.
+
+- Tabs: Thành phần cũng rất phổ biến, gần giống với Accordion tuy nhiên nó dùng cho các phần tử được sử dụng nhiều lần trên một trang web.
+
+- Carousel: Thành phần tạo slide trượt, hiển thị thông tin đến người dùng thường là trong một khối dưới dạng trượt.
+
+- Customer Testimonials: Phản hồi của người dùng hay khách hàng, thường dùng cho việc lấy ý kiến hay đánh giá của khách hàng. Giúp tăng sự tin tưởng đối với trang web hay với sản phẩm mà trang web hướng đến.

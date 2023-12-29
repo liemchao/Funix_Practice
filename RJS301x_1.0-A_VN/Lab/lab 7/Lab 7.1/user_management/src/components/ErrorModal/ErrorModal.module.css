@@ -1,0 +1,22 @@
+.error-modal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000080;
+}
+
+.error-okay__button {
+    bottom: 0;
+    right: 0;
+}
+
+.error-title {
+    background-color: #4f005f;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
